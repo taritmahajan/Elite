@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+    <suite name="AP Regression Suite">
+    <listeners>
+        <listener class-name="com.ecomm.util.Listners.TestListener"/>
+    </listeners>
+
+    <test name="HomeTests">
+    <!-- <parameter name="emailid" value="tester456@gmail.com"/>-->
+    <classes>
+        <class name="com.ecomm.TestCase.AP.HomeTest2"/>
+    </classes>
+    </test>
+    <test name="CartTests">
+        <!-- <parameter name="emailid" value="tester456@gmail.com"/>-->
+        <classes>
+<!--           All classes under a test tag run in same browser instance. for new browser need to create separate test tag -->
+            <class name="com.ecomm.TestCase.AP.CartTest2"/>
+        </classes>
+    </test>
+
+
+<!--    <test name="PageTestOne">-->
+<!--        &lt;!&ndash; <parameter name="emailid" value="tester456@gmail.com"/>&ndash;&gt;-->
+<!--        <classes>-->
+<!--            <class name="com.ecomm.TestCase.AP.RoughTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="PageTestTwo">-->
+<!--        &lt;!&ndash; <parameter name="emailid" value="tester456@gmail.com"/>&ndash;&gt;-->
+<!--        <classes>-->
+<!--            &lt;!&ndash;           All classes under a test tag run in same browser instance. for new browser need to create separate test tag &ndash;&gt;-->
+<!--            <class name="com.ecomm.TestCase.AP.RoughTest2"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+<!--        <test name="Cukes - Search">-->
+<!--            &lt;!&ndash; <parameter name="emailid" value="tester456@gmail.com"/>&ndash;&gt;-->
+<!--            <classes>-->
+<!--                &lt;!&ndash;           All classes under a test tag run in same browser instance. for new browser need to create separate test tag &ndash;&gt;-->
+<!--                <class name="com.ecomm.cukes.runner.Home_TestRunner"/>-->
+<!--            </classes>-->
+<!--        </test>-->
+
+    </suite>

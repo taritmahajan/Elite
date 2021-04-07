@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AP Regression Suite" duration-ms="192590" started-at="2021-04-07T18:04:03 IST" finished-at="2021-04-07T18:07:15 IST">
+    <groups>
+    </groups>
+    <test name="HomeTests" duration-ms="125821" started-at="2021-04-07T18:04:03 IST" finished-at="2021-04-07T18:06:09 IST">
+      <class name="com.ecomm.TestCase.AP.HomeTest2">
+        <test-method status="PASS" signature="homePageVerify()[pri:0, instance:com.ecomm.TestCase.AP.HomeTest2@9660f4e]" name="homePageVerify" duration-ms="12071" started-at="2021-04-07T18:05:40 IST" finished-at="2021-04-07T18:05:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageVerify -->
+        <test-method status="PASS" signature="addFirstProductToCart()[pri:1, instance:com.ecomm.TestCase.AP.HomeTest2@9660f4e]" name="addFirstProductToCart" duration-ms="731" started-at="2021-04-07T18:05:52 IST" finished-at="2021-04-07T18:05:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addFirstProductToCart -->
+        <test-method status="PASS" signature="verifyProductAddedPageLayout()[pri:2, instance:com.ecomm.TestCase.AP.HomeTest2@9660f4e]" name="verifyProductAddedPageLayout" duration-ms="16051" started-at="2021-04-07T18:05:53 IST" finished-at="2021-04-07T18:06:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAddedPageLayout -->
+      </class> <!-- com.ecomm.TestCase.AP.HomeTest2 -->
+    </test> <!-- HomeTests -->
+    <test name="CartTests" duration-ms="53636" started-at="2021-04-07T18:06:22 IST" finished-at="2021-04-07T18:07:15 IST">
+      <class name="com.ecomm.TestCase.AP.CartTest2">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.ecomm.TestCase.AP.CartTest2@30a3107a]" name="firstTest" duration-ms="5641" started-at="2021-04-07T18:07:06 IST" finished-at="2021-04-07T18:07:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.ecomm.TestCase.AP.CartTest2@30a3107a]" name="secondTest" duration-ms="3492" started-at="2021-04-07T18:07:12 IST" finished-at="2021-04-07T18:07:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+      </class> <!-- com.ecomm.TestCase.AP.CartTest2 -->
+    </test> <!-- CartTests -->
+  </suite> <!-- AP Regression Suite -->
+</testng-results>
