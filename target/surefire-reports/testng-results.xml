@@ -1,37 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="AP Regression Suite" duration-ms="192590" started-at="2021-04-07T18:04:03 IST" finished-at="2021-04-07T18:07:15 IST">
+  <suite name="AP Regression Suite" duration-ms="197080" started-at="2021-04-08T20:02:06 IST" finished-at="2021-04-08T20:05:23 IST">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ecomm.cukes.runner.Home_TestRunner@1563da5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="HomeTests" duration-ms="125821" started-at="2021-04-07T18:04:03 IST" finished-at="2021-04-07T18:06:09 IST">
-      <class name="com.ecomm.TestCase.AP.HomeTest2">
-        <test-method status="PASS" signature="homePageVerify()[pri:0, instance:com.ecomm.TestCase.AP.HomeTest2@9660f4e]" name="homePageVerify" duration-ms="12071" started-at="2021-04-07T18:05:40 IST" finished-at="2021-04-07T18:05:52 IST">
+    <test name="Cukes - Search" duration-ms="197080" started-at="2021-04-08T20:02:06 IST" finished-at="2021-04-08T20:05:23 IST">
+      <class name="com.ecomm.cukes.runner.Home_TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.ecomm.cukes.runner.Home_TestRunner@1563da5]" name="setUpClass" is-config="true" duration-ms="10651" started-at="2021-04-08T20:03:56 IST" finished-at="2021-04-08T20:04:07 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homePageVerify -->
-        <test-method status="PASS" signature="addFirstProductToCart()[pri:1, instance:com.ecomm.TestCase.AP.HomeTest2@9660f4e]" name="addFirstProductToCart" duration-ms="731" started-at="2021-04-07T18:05:52 IST" finished-at="2021-04-07T18:05:53 IST">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ecomm.cukes.runner.Home_TestRunner@1563da5]" name="runScenario" duration-ms="28262" started-at="2021-04-08T20:04:07 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-08T20:04:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for a product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Product Search]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addFirstProductToCart -->
-        <test-method status="PASS" signature="verifyProductAddedPageLayout()[pri:2, instance:com.ecomm.TestCase.AP.HomeTest2@9660f4e]" name="verifyProductAddedPageLayout" duration-ms="16051" started-at="2021-04-07T18:05:53 IST" finished-at="2021-04-07T18:06:09 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ecomm.cukes.runner.Home_TestRunner@1563da5]" name="runScenario" duration-ms="16825" started-at="2021-04-08T20:04:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-04-08T20:04:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Search Page elements"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Product Search]"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyProductAddedPageLayout -->
-      </class> <!-- com.ecomm.TestCase.AP.HomeTest2 -->
-    </test> <!-- HomeTests -->
-    <test name="CartTests" duration-ms="53636" started-at="2021-04-07T18:06:22 IST" finished-at="2021-04-07T18:07:15 IST">
-      <class name="com.ecomm.TestCase.AP.CartTest2">
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:com.ecomm.TestCase.AP.CartTest2@30a3107a]" name="firstTest" duration-ms="5641" started-at="2021-04-07T18:07:06 IST" finished-at="2021-04-07T18:07:12 IST">
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.ecomm.cukes.runner.Home_TestRunner@1563da5]" name="tearDownClass" is-config="true" duration-ms="31370" started-at="2021-04-08T20:04:52 IST" finished-at="2021-04-08T20:05:23 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="secondTest()[pri:0, instance:com.ecomm.TestCase.AP.CartTest2@30a3107a]" name="secondTest" duration-ms="3492" started-at="2021-04-07T18:07:12 IST" finished-at="2021-04-07T18:07:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- secondTest -->
-      </class> <!-- com.ecomm.TestCase.AP.CartTest2 -->
-    </test> <!-- CartTests -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ecomm.cukes.runner.Home_TestRunner -->
+    </test> <!-- Cukes - Search -->
   </suite> <!-- AP Regression Suite -->
 </testng-results>

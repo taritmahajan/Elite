@@ -44,7 +44,7 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-        ExtentManager.test = ExtentManager.report.createTest(result.getName());
+        ExtentManager.test = ExtentManager.report.createTest(result.getTestName());
     }
 
     @Override

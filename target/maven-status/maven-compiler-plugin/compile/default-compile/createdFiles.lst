@@ -1,6 +1,7 @@
 com\ecomm\util\FileReaders\ReadProperties.class
-com\ecomm\util\Support\ExtentManager.class
 com\ecomm\util\Support\DriverManager.class
 com\ecomm\util\Listners\TestListener.class
 com\ecomm\util\FileReaders\ReadJson.class
 com\ecomm\util\Support\TestBase.class
+com\ecomm\util\Support\ExtentManager.class
+com\ecomm\util\Support\ExtentManagerCukes.class
