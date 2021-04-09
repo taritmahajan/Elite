@@ -1,11 +1,8 @@
 com\ecomm\TestCase\AP\CartTest2.class
 com\ecomm\page\AP\HomePage.class
 com\ecomm\TestCase\UK\HomeTest.class
-com\ecomm\cukes\runner\Home_TestRunner.class
 com\ecomm\page\AP\ProductListPage.class
 com\ecomm\TestCase\AP\RoughTest2.class
-com\ecomm\cukes\StepDefs\Search_Steps.class
 com\ecomm\TestCase\AP\HomeTest2.class
-com\ecomm\cukes\StepDefs\Hooks.class
 com\ecomm\TestCase\AP\RoughTest.class
 com\ecomm\RoughWork.class

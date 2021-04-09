@@ -44,8 +44,8 @@ public class TestListener implements ITestListener {
 
     @Override
     public void onTestStart(ITestResult result) {
-
-        //ExtentManager.test = ExtentManager.report.createTest(result.getTestName());
+        //needed only when running testng tests , not cukes tests
+       ExtentManager.test = ExtentManager.report.createTest(result.getName());
     }
 
     @Override

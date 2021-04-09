@@ -33,10 +33,6 @@
                     <suiteXmlFile>TestNG/APtestng.xml</suiteXmlFile>
                 </suiteXmlFiles>
                 <testFailureIgnore>true</testFailureIgnore>
-                <systemPropertyVariables>
-                    <extent.reporter.spark.start>true</extent.reporter.spark.start>
-                    <extent.reporter.spark.out>test-output/SparkReport/Spark.html</extent.reporter.spark.out>
-                </systemPropertyVariables>
             </configuration>
         </plugin>
 

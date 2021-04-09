@@ -6,7 +6,7 @@ import com.ecomm.util.Support.ExtentManager;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners(TestListener.class)
+//@Listeners(TestListener.class)
 public class RoughTest2 {
 
     @Test(testName = "Test One")
